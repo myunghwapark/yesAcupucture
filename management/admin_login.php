@@ -50,7 +50,7 @@
                       <input type="email" class="form-control form-control-user" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter Email Address..." />
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password" />
+                      <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password" maxlength="20" minlength="8" />
                       <input type="hidden" id="userType" name="userType" valu="G001_001" />
                     </div>
                     <div class="form-group">
@@ -131,6 +131,10 @@
             alert("Please enter password.");
             $("#password").focus();
             return false;
+        }
+        else if(!chkPwd( $.trim($("#password").val()))){
+           $("#password").focus();
+           return false;
         }
         else {
             return true;

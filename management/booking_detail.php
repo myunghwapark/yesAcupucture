@@ -17,7 +17,16 @@
           <!-- DataTales Example -->
           <?php
                    
-          $bookingDetail = getBookingDetail($bookingSeqNo);
+          global $connection;
+
+          $query = getBookingDetail($bookingSeqNo);
+
+          $bookingDetail = mysqli_query($connection, $query);
+
+          if($bookingDetail == false) {
+             echo "error: " . mysqli_error($connection);
+          }
+
           if ($bookingDetail->num_rows > 0) {
               
               while($board = $bookingDetail->fetch_array())
@@ -48,7 +57,13 @@
                               <option value="">Please select service.</option>
                           <?php
                            
-                          $serviceList = getServiceListByLan("en");
+                          $serviceListQuery = getServiceListByLan("en");
+
+                          $serviceList = mysqli_query($connection, $serviceListQuery);
+
+                          if($serviceList == false) {
+                             echo "error: " . mysqli_error($connection);
+                          }
                           if ($serviceList->num_rows > 0) {
                               
                               $selected = "";
@@ -106,7 +121,14 @@
                               <option value="">Please select booking status.</option>
                           <?php
                            
-                          $bookingStatusList = getBookingStatusList();
+                          $bookingStatusListQuery = getBookingStatusList();
+
+                          $bookingStatusList = mysqli_query($connection, $bookingStatusListQuery);
+
+                          if($bookingStatusList == false) {
+                             echo "error: " . mysqli_error($connection);
+                          }
+
                           if ($bookingStatusList->num_rows > 0) {
                               
                               $selected = "";
@@ -124,6 +146,7 @@
                           <?php 
                               }
                             } 
+                            mysqli_close($connection);
                             ?>
                           </select>
                         </td>

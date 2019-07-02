@@ -23,7 +23,7 @@
                           </div>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <input type="password" class="form-input" name="password" id="password" placeholder="Password" maxlength="20" minlength="8"/>
                             <span toggle="#password" class="zmdi zmdi-eye-off field-icon toggle-password"></span>
                         </div>
                         <div class="form-group">
@@ -144,6 +144,10 @@
             alert("Please enter password.");
             $("#password").focus();
             return false;
+        }
+        else if(!chkPwd( $.trim($("#password").val()))){
+           $("#password").focus();
+           return false;
         }
         else if($("#rePassword").val() == null || $("#rePassword").val() == "") {
             alert("Please enter confirm password.");

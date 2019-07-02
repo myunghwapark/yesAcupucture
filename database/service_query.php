@@ -9,15 +9,10 @@
 		else {
 			$language_type = "serviceTypeEn";
 		}
-		global $connection;
+		
 		$query = "Select $language_type as service, serviceStatus, serviceSeqNo from tbService;";
 		
-		$result = mysqli_query($connection, $query);
-
-		if($result == false) {
-			 echo "error: " . mysqli_error($connection);
-		}
-		return $result;
+		return $query;
 	}
 
 	function getServiceList() {
@@ -30,6 +25,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
@@ -42,6 +38,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
@@ -54,6 +51,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
@@ -66,6 +64,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
@@ -79,6 +78,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 

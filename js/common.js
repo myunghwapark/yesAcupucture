@@ -23,4 +23,25 @@ function getCookie(cname) {
 
 function noSundays(date) {  
     return [date.getDay() != 0, ''];  
-} 
+}
+
+function chkPwd(str){
+   var pw = str;
+   var num = pw.search(/[0-9]/g);
+   var eng = pw.search(/[a-z]/ig);
+   var spe = pw.search(/[`~!@@#$%^&*|₩₩₩'₩";:₩/?]/gi);
+
+   if(pw.length < 8 || pw.length > 20){
+    alert("Please, enter the password more than 8 characters and less than 20 characters.");
+    return false;
+   }
+   if(pw.search(/₩s/) != -1){
+    alert("Please, enter the password without space.");
+    return false;
+   } if(num < 0 || eng < 0 || spe < 0 ){
+    alert("Please, enter the password which contain at least one numeric digit, one letter and special character.");
+    return false;
+   }
+
+   return true;
+}

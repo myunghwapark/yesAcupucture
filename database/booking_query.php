@@ -11,45 +11,29 @@
 
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
-
-			if($connection) {
-				mysql_close($connection);
-			}
 		}
+		mysqli_close($connection);
 		
 		return $result;
 	}
 
 	function getBookingDetail($bookingSeqNo) {
 		
-		global $connection;
 		$query = "Select bookingSeqNo, email, firstName, lastName, date_format(bookingDate, '%d-%m-%Y') as bookingDate, bookingDate as bookingDateForm, bookingTime,  description, (select serviceTypeEn from tbService where serviceSeqNo = A.serviceTypeSeqNo) serviceType, serviceTypeSeqNo,
 		(select codeName from tbCommonCode where codeNo = bookingStatus) bookingStatus, bookingStatus as bookingStatusCode, phoneNumber, createDate from tbBooking A where bookingSeqNo = ".$bookingSeqNo;
 		
-		$result = mysqli_query($connection, $query);
+		//mysqli_close($connection);
 
-		if($result == false) {
-			 echo "error: " . mysqli_error($connection);
-		}
-		return $result;
+		return $query;
 	}
 
 	function getBookingStatusList() {
 		
-		global $connection;
 		$query = "Select codeName, codeNo from tbCommonCode where codeGroup = 'G002'";
 		
-		$result = mysqli_query($connection, $query);
-
-		if($result == false) {
-			 echo "error: " . mysqli_error($connection);
-			 
-			if($connection) {
-				mysql_close($connection);
-			}
-		}
+		//mysqli_close($connection);
 		
-		return $result;
+		return $query;
 	}
 
 	function getReservedBookingTime($bookingDate) {
@@ -74,6 +58,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
@@ -86,6 +71,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
@@ -98,6 +84,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
+		mysqli_close($connection);
 		return $result;
 	}
 
