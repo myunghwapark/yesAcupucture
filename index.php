@@ -45,7 +45,6 @@
 
       <div class="container">
         <div class="row">
-          <div class="row">
           <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
