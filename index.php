@@ -45,49 +45,38 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 col-md-3">
+          <div class="row">
+          <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
 
-                <i class="fa fa-check fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Make an appoinment</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                <img src="img/photo/service_icon1.png" />
+                <h4 class="h-bold" data-tag="service_title1">Oriental medicine</h4>
+                <p data-tag="service_contents1">
+                  &quot;It does not hurt when the blood circulates,<br/> and it hurts if it does not work&quot; which means that if the circulation of the blood is not good, you can get sick through feelings, climate, environment, internal problems and injuries. Oriental medicine treats the whole body rather than the part to find out the cause of the pain.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3">
+          <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
 
-                <i class="fa fa-list-alt fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Choose your package</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                <img src="img/photo/service_icon2.png" />
+                <h4 class="h-bold" data-tag="service_title2">Chiropractic</h4>
+                <p data-tag="service_contents2">
+                  Chiropractic is a combination of &quot;Cairo&quot; meaning &quot;hand&quot; in Greek and &quot;fructose&quot; in the sense of healing. It makes the bones, joints, and muscles of the spine, including the twisted or curved spine in its original position. It is a natural healing medicine that treats spinal / joint-related diseases without drugs and surgery by making the nerve flow well between the nerves, brain and organs that support it.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 col-md-3">
+          <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
-                <i class="fa fa-user-md fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Help by specialist</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3 col-md-3">
-            <div class="wow fadeInUp" data-wow-delay="0.2s">
-              <div class="box text-center">
-
-                <i class="fa fa-hospital-o fa-3x circled bg-skin"></i>
-                <h4 class="h-bold">Get diagnostic report</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
+                <img src="img/photo/service_icon3.png" />
+                <h4 class="h-bold" data-tag="service_title3">Physio</h4>
+                <p data-tag="service_contents3">
+                  Systematic diagnosis of nerve, muscle and skeletal system disease or joint dysfunction releases muscular tension and rigid joints to restore limited range of joints with activation after accident, injury or surgery.
                 </p>
               </div>
             </div>
