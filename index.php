@@ -202,7 +202,7 @@
                 <li class="cbp-item psychiatrist">
                   <div>
                     <div class="cbp-caption cbp-singlePage">
-                      <img src="img/team/1.jpg" alt="" width="100%">
+                      <img src="img/team/4.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -228,8 +228,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-l-grid-team-name" data-tag="manager_title"></div>
-                  <div class="cbp-l-grid-team-position" data-tag="manager_name"></div>
+                  <div class="cbp-l-grid-team-name" data-tag="manager_name"></div>
+                  <div class="cbp-l-grid-team-position" data-tag="manager_title"></div>
                 </li>
                 <li class="cbp-item cardiologist">
                   <div>
@@ -250,7 +250,7 @@
                 <li class="cbp-item neurologist">
                   <div>
                     <div class="cbp-caption cbp-singlePage">
-                      <img src="img/team/4.jpg" alt="" width="100%">
+                      <img src="img/team/1.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
