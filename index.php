@@ -200,9 +200,9 @@
             <div id="grid-container" class="cbp-l-grid-team">
               <ul>
                 <li class="cbp-item psychiatrist">
-                  <a href="<?=$siteLink?>doctors/member4.html" class="cbp-caption cbp-singlePage">
-                    <div class="cbp-caption-defaultWrap">
-                      <img src="<?=$siteLink?>img/team/4.jpg" alt="" width="100%">
+                  <div>
+                    <div class="cbp-caption cbp-singlePage">
+                      <img src="img/team/1.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -211,14 +211,14 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <a href="<?=$siteLink?>/pages/doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name" data-tag="director_title"></a>
-                  <div class="cbp-l-grid-team-position" data-tag="director_name"></div>
+                  </div>
+                  <div class="cbp-l-grid-team-name">Alice Grue</a>
+                  <div class="cbp-l-grid-team-position">Psychiatrist</div>
                 </li>
                 <li class="cbp-item cardiologist">
-                  <a href="<?=$siteLink?>doctors/member2.html" class="cbp-caption cbp-singlePage">
-                    <div class="cbp-caption-defaultWrap">
-                      <img src="<?=$siteLink?>img/team/2.jpg" alt="" width="100%">
+                  <div>
+                    <div class="cbp-caption cbp-singlePage">
+                      <img src="img/team/2.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -227,14 +227,14 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <a href="<?=$siteLink?>/pages/doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name" data-tag="manager_title"></a>
-                  <div class="cbp-l-grid-team-position" data-tag="manager_name"></div>
+                  </div>
+                  <div class="cbp-l-grid-team-name">Joseph Murphy</div>
+                  <div class="cbp-l-grid-team-position">Cardiologist</div>
                 </li>
                 <li class="cbp-item cardiologist">
-                  <a href="<?=$siteLink?>/pages/doctors/member3.html" class="cbp-caption cbp-singlePage">
-                    <div class="cbp-caption-defaultWrap">
-                      <img src="<?=$siteLink?>img/team/3.jpg" alt="" width="100%">
+                  <div>
+                    <div class="cbp-caption cbp-singlePage">
+                      <img src="img/team/3.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -243,14 +243,14 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <a href="<?=$siteLink?>/pages/doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Alison Davis</a>
+                  </div>
+                  <div class="cbp-l-grid-team-name">Alison Davis</div>
                   <div class="cbp-l-grid-team-position">Cardiologist</div>
                 </li>
                 <li class="cbp-item neurologist">
-                  <a href="<?=$siteLink?>/pages/doctors/member1.html" class="cbp-caption cbp-singlePage">
-                    <div class="cbp-caption-defaultWrap">
-                      <img src="<?=$siteLink?>img/team/1.jpg" alt="" width="100%">
+                  <div>
+                    <div class="cbp-caption cbp-singlePage">
+                      <img src="img/team/4.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -259,8 +259,8 @@
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <a href="<?=$siteLink?>/pages/doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Adam Taylor</a>
+                  </div>
+                  <div class="cbp-l-grid-team-name">Adam Taylor</div>
                   <div class="cbp-l-grid-team-position">Neurologist</div>
                 </li>
 
