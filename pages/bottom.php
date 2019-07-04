@@ -15,15 +15,15 @@
 					</span> 
 					<table style="position: relative;margin-top: -36px;left: 50px;">
           				<tr>
-          					<th data-tag="mon_fri">Mon to Fri:&nbsp;</th>
-          						<td>10:30am to 9pm</td>
+          					<th data-tag="mon_fri">Mon to Fri:&nbsp;&nbsp;</th>
+          					<td>10:30am to 9pm</td>
           				</tr>
           				<tr>
-          					<th data-tag="sat">Sat:&nbsp;</th> 
+          					<th data-tag="sat">Sat:&nbsp;&nbsp;</th> 
           					<td>11am to 5pm</td>
           				</tr>
           				<tr>
-          					<th data-tag="sun">Sun:&nbsp;</th>
+          					<th data-tag="sun">Sun:&nbsp;&nbsp;</th>
           					<td>Closed</td>
           				</tr>
           			</table>
