@@ -212,8 +212,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-l-grid-team-name">Alice Grue</a>
-                  <div class="cbp-l-grid-team-position">Psychiatrist</div>
+                  <div class="cbp-l-grid-team-name" data-tag="director_name"></a>
+                  <div class="cbp-l-grid-team-position" data-tag="director_title"></div>
                 </li>
                 <li class="cbp-item cardiologist">
                   <div>
@@ -228,8 +228,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-l-grid-team-name">Joseph Murphy</div>
-                  <div class="cbp-l-grid-team-position">Cardiologist</div>
+                  <div class="cbp-l-grid-team-name" data-tag="manager_title"></div>
+                  <div class="cbp-l-grid-team-position" data-tag="manager_name"></div>
                 </li>
                 <li class="cbp-item cardiologist">
                   <div>
