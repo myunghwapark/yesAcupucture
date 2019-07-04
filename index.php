@@ -96,8 +96,8 @@
                 <div class="col-md-8">
                   <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <div class="cta-text">
-                      <h3>In an emergency? Need help now?</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit uisque interdum ante eget faucibus. </p>
+                      <h3 data-tag="emergency_title"></h3>
+                      <p data-tag="emergency_content"></p>
                     </div>
                   </div>
                 </div>
