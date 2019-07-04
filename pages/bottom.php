@@ -6,57 +6,39 @@
           <div class="col-sm-6 col-md-4">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="widget">
-                <h5>Information</h5>
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Laboratory</a></li>
-                  <li><a href="#">Medical treatment</a></li>
-                  <li><a href="#">Terms & conditions</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="wow fadeInDown" data-wow-delay="0.1s">
-              <div class="widget">
-                <h5 data-tag="clinic_title"></h5>
+                <h5>Yes Acupuncure Clinic</h5>
                 <ul>
                   <li>
                     <span class="fa-stack fa-lg">
-						          <i class="fa fa-circle fa-stack-2x"></i>
-						          <i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
-					         </span> 
-          				<table style="position: relative;margin-top: -36px;left: 50px;">
-          					<tr>
-          						<th data-tag="mon_fri">Mon to Fri:</th>
-          					 	<td>10:30am to 9pm</td>
-          					</tr>
-          					<tr>
-          						<th data-tag="sat">Sat:</th> 
-          						<td>11am to 5pm</td>
-          					</tr>
-          					<tr>
-          						<th data-tag="sun">Sun:</th>
-          						<td>Closed</td>
-          					</tr>
-          				</table>
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
+					</span> 
+					<table style="position: relative;margin-top: -36px;left: 50px;">
+          				<tr>
+          					<th data-tag="mon_fri">Mon to Fri:&nbsp;</th>
+          						<td>10:30am to 9pm</td>
+          				</tr>
+          				<tr>
+          					<th data-tag="sat">Sat:&nbsp;</th> 
+          					<td>11am to 5pm</td>
+          				</tr>
+          				<tr>
+          					<th data-tag="sun">Sun:&nbsp;</th>
+          					<td>Closed</td>
+          				</tr>
+          			</table>
                   </li>
                   <li>
                     <span class="fa-stack fa-lg">
-						          <i class="fa fa-circle fa-stack-2x"></i>
-						          <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-					           </span><a href="tel:+62 09 369 1369"> +62 09 369 1369</a>
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+					</span> +62 09 369 1369
                   </li>
                   <li>
                     <span class="fa-stack fa-lg">
-						          <i class="fa fa-circle fa-stack-2x"></i>
-						          <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-					           </span> <a href="mailto:yesnz@hotmail.com">yesnz@hotmail.com</a>
-                  </li>
-                  <li>
-                    <span class="fa-stack fa-lg">
-                      <img src="<?=$siteLink?>img/kakaotalk_circle.png" style="width:38px;margin-left:3px;" alt="kakaotalk" />
-                     </span> yesnz
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+					</span> yesnz@hotmail.com
                   </li>
 
                 </ul>
@@ -71,15 +53,19 @@
 
               </div>
             </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="widget">
                 <h5>Follow us</h5>
                 <ul class="company-social">
-                  <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="social-facebook"><a href="https://www.facebook.com/yesacupunctureclinic" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li class="social-instagram"><a href="https://www.instagram.com/p/BcdZ30tB8-W/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  <li style="position: relative;top: -1px;"><a href="http://blog.daum.net/jhcom76" target="_blank"><img src="img/daum_logo.png" /></a></li>
+                  <!--
                   <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
                   <li class="social-dribble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                  -->
                 </ul>
               </div>
             </div>
@@ -92,7 +78,7 @@
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="wow fadeInLeft" data-wow-delay="0.1s">
                 <div class="text-left">
-                  <p>&copy;Copyright - Medicio Theme. All rights reserved.</p>
+                  <p>&copy;Copyright - Yes Acupuncture. All rights reserved.</p>
                 </div>
               </div>
             </div>
