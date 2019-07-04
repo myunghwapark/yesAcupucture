@@ -122,86 +122,41 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-sm-6 col-md-6">
+          <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
-              <img src="<?=$siteLink?>img/photo/acupuncture3.jpg" class="img-responsive" alt="" />
+              <img src="img/photo/acupuncture3.jpg" class="img-responsive" alt="" />
             </div>
           </div>
-          <div class="col-sm-3 col-md-3">
+          <div class="col-sm-8 col-md-8">
 
+            <div class="wow fadeInRight" data-wow-delay="0.1s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <img src="img/acc_logo.png" style="width:45px;" />
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light" data-tag="acc_title1">ACC</h5>
+                  <p data-tag="acc_contents1"></p>
+                </div>
+              </div>
+            </div>
+            
             <div class="wow fadeInRight" data-wow-delay="0.1s">
               <div class="service-box">
                 <div class="service-icon">
                   <span class="fa fa-stethoscope fa-3x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light">Medical checkup</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
+                  <h5 class="h-light" data-tag="acc_title2"></h5>
+                  <p data-tag="acc_contents2"></p>
+                  <ul>
+                  	<li data-tag="acc_contents2_1"></li>
+                  	<li data-tag="acc_contents2_2"></li>
+                  </ul>
                 </div>
               </div>
             </div>
 
-            <div class="wow fadeInRight" data-wow-delay="0.2s">
-              <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-wheelchair fa-3x"></span>
-                </div>
-                <div class="service-desc">
-                  <h5 class="h-light">Nursing Services</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-                </div>
-              </div>
-            </div>
-            <div class="wow fadeInRight" data-wow-delay="0.3s">
-              <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-plus-square fa-3x"></span>
-                </div>
-                <div class="service-desc">
-                  <h5 class="h-light">Pharmacy</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-          <div class="col-sm-3 col-md-3">
-
-            <div class="wow fadeInRight" data-wow-delay="0.1s">
-              <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-h-square fa-3x"></span>
-                </div>
-                <div class="service-desc">
-                  <h5 class="h-light">Gyn Care</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="wow fadeInRight" data-wow-delay="0.2s">
-              <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-filter fa-3x"></span>
-                </div>
-                <div class="service-desc">
-                  <h5 class="h-light">Neurology</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-                </div>
-              </div>
-            </div>
-            <div class="wow fadeInRight" data-wow-delay="0.3s">
-              <div class="service-box">
-                <div class="service-icon">
-                  <span class="fa fa-user-md fa-3x"></span>
-                </div>
-                <div class="service-desc">
-                  <h5 class="h-light">Sleep Center</h5>
-                  <p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-                </div>
-              </div>
-            </div>
 
           </div>
 
