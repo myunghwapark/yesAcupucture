@@ -212,7 +212,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="cbp-l-grid-team-name" data-tag="director_name"></a>
+                  <div class="cbp-l-grid-team-name" data-tag="director_name"></div>
                   <div class="cbp-l-grid-team-position" data-tag="director_title"></div>
                 </li>
                 <li class="cbp-item cardiologist">
