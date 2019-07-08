@@ -85,7 +85,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="<?=$siteLink?>index.php#intro">Home</a></li>
             <li><a href="<?=$siteLink?>index.php#callaction">Service</a></li>
-            <li><a href="<?=$siteLink?>index.php#doctor">Doctors</a></li>
+            <li><a href="<?=$siteLink?>index.php#doctor">Staff</a></li>
             <li><a href="<?=$siteLink?>index.php#contactus">Contact Us</a></li>
             <li><a href="<?=$siteLink?>index.php#pricing">Price</a></li>
             <li><a href="<?=$siteLink?>pages/make_appointment.php">Make an appointment</a></li>

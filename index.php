@@ -30,7 +30,7 @@
 
             <div class="col-lg-6">
               <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-                <img src="<?=$siteLink?>img/dummy/img-1.png" class="img-responsive" alt="" />
+                <img src="<?=$siteLink?>img/photo/building.png" class="img-responsive" style="position: relative;top:100px;" alt="" />
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="section-heading text-center">
-                <h2 class="h-bold">Doctors</h2>
+                <h2 class="h-bold">Staff</h2>
                 <p data-tag="doctor_sub">We do our best for the best service.</p>
               </div>
             </div>
@@ -183,90 +183,9 @@
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-<!--
-            <div id="filters-container" class="cbp-l-filters-alignLeft">
-              <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All (
-                <div class="cbp-filter-counter"></div>)</div>
-              <div data-filter=".cardiologist" class="cbp-filter-item">Cardiologist (
-                <div class="cbp-filter-counter"></div>)</div>
-              <div data-filter=".psychiatrist" class="cbp-filter-item">Psychiatrist (
-                <div class="cbp-filter-counter"></div>)</div>
-              <div data-filter=".neurologist" class="cbp-filter-item">Neurologist (
-                <div class="cbp-filter-counter"></div>)</div>
-            </div>
--->
-            <div id="grid-container" class="cbp-l-grid-team">
-              <ul>
-                <li class="cbp-item psychiatrist">
-                  <div>
-                    <div class="cbp-caption cbp-singlePage">
-                      <img src="<?=$siteLink?>img/team/4.jpg" alt="" width="100%">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                      <div class="cbp-l-caption-alignCenter">
-                        <div class="cbp-l-caption-body">
-                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-l-grid-team-name" data-tag="director_name"></div>
-                  <div class="cbp-l-grid-team-position" data-tag="director_title"></div>
-                </li>
-                <li class="cbp-item cardiologist">
-                  <div>
-                    <div class="cbp-caption cbp-singlePage">
-                      <img src="<?=$siteLink?>img/team/2.jpg" alt="" width="100%">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                      <div class="cbp-l-caption-alignCenter">
-                        <div class="cbp-l-caption-body">
-                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-l-grid-team-name" data-tag="manager_name"></div>
-                  <div class="cbp-l-grid-team-position" data-tag="manager_title"></div>
-                </li>
-                <li class="cbp-item cardiologist">
-                  <div>
-                    <div class="cbp-caption cbp-singlePage">
-                      <img src="<?=$siteLink?>img/team/3.jpg" alt="" width="100%">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                      <div class="cbp-l-caption-alignCenter">
-                        <div class="cbp-l-caption-body">
-                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-l-grid-team-name">Alison Davis</div>
-                  <div class="cbp-l-grid-team-position">Cardiologist</div>
-                </li>
-                <li class="cbp-item neurologist">
-                  <div>
-                    <div class="cbp-caption cbp-singlePage">
-                      <img src="<?=$siteLink?>img/team/1.jpg" alt="" width="100%">
-                    </div>
-                    <div class="cbp-caption-activeWrap">
-                      <div class="cbp-l-caption-alignCenter">
-                        <div class="cbp-l-caption-body">
-                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cbp-l-grid-team-name">Adam Taylor</div>
-                  <div class="cbp-l-grid-team-position">Neurologist</div>
-                </li>
-
-              </ul>
-            </div>
-          </div>
+        <div class="row" style="text-align: center;">
+         
+              <img src="<?=$siteLink?>img/photo/staff.png" style="width:900px;" alt="staff" />
         </div>
       </div>
 
