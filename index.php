@@ -49,7 +49,7 @@
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
 
-                <img src="img/photo/service_icon1.png" />
+                <img src="<?=$siteLink?>img/photo/service_icon1.png" />
                 <h4 class="h-bold" data-tag="service_title1">Oriental medicine</h4>
                 <p data-tag="service_contents1">
                   &quot;It does not hurt when the blood circulates,<br/> and it hurts if it does not work&quot; which means that if the circulation of the blood is not good, you can get sick through feelings, climate, environment, internal problems and injuries. Oriental medicine treats the whole body rather than the part to find out the cause of the pain.
@@ -61,7 +61,7 @@
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
 
-                <img src="img/photo/service_icon2.png" />
+                <img src="<?=$siteLink?>img/photo/service_icon2.png" />
                 <h4 class="h-bold" data-tag="service_title2">Chiropractic</h4>
                 <p data-tag="service_contents2">
                   Chiropractic is a combination of &quot;Cairo&quot; meaning &quot;hand&quot; in Greek and &quot;fructose&quot; in the sense of healing. It makes the bones, joints, and muscles of the spine, including the twisted or curved spine in its original position. It is a natural healing medicine that treats spinal / joint-related diseases without drugs and surgery by making the nerve flow well between the nerves, brain and organs that support it.
@@ -72,7 +72,7 @@
           <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
               <div class="box text-center">
-                <img src="img/photo/service_icon3.png" />
+                <img src="<?=$siteLink?>img/photo/service_icon3.png" />
                 <h4 class="h-bold" data-tag="service_title3">Physio</h4>
                 <p data-tag="service_contents3">
                   Systematic diagnosis of nerve, muscle and skeletal system disease or joint dysfunction releases muscular tension and rigid joints to restore limited range of joints with activation after accident, injury or surgery.
@@ -104,7 +104,7 @@
                 <div class="col-md-4">
                   <div class="wow lightSpeedIn" data-wow-delay="0.1s">
                     <div class="cta-btn">
-                      <a href="tel:+62 09 369 1369" class="btn btn-skin btn-lg">Call us +62 09 369 1369</a>
+                      <a href="tel:+64 09 369 1369" class="btn btn-skin btn-lg">Call us +64 09 369 1369</a>
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@
         <div class="row">
           <div class="col-sm-4 col-md-4">
             <div class="wow fadeInUp" data-wow-delay="0.2s">
-              <img src="img/photo/acupuncture3.jpg" class="img-responsive" alt="" />
+              <img src="<?=$siteLink?>img/photo/acupuncture3.jpg" class="img-responsive" alt="" />
             </div>
           </div>
           <div class="col-sm-8 col-md-8">
@@ -132,7 +132,7 @@
             <div class="wow fadeInRight" data-wow-delay="0.1s">
               <div class="service-box">
                 <div class="service-icon">
-                  <img src="img/acc_logo.png" style="width:45px;" />
+                  <img src="<?=$siteLink?>img/acc_logo.png" style="width:45px;" />
                 </div>
                 <div class="service-desc">
                   <h5 class="h-light" data-tag="acc_title1">ACC</h5>
@@ -202,7 +202,7 @@
                 <li class="cbp-item psychiatrist">
                   <div>
                     <div class="cbp-caption cbp-singlePage">
-                      <img src="img/team/4.jpg" alt="" width="100%">
+                      <img src="<?=$siteLink?>img/team/4.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -218,7 +218,7 @@
                 <li class="cbp-item cardiologist">
                   <div>
                     <div class="cbp-caption cbp-singlePage">
-                      <img src="img/team/2.jpg" alt="" width="100%">
+                      <img src="<?=$siteLink?>img/team/2.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -234,7 +234,7 @@
                 <li class="cbp-item cardiologist">
                   <div>
                     <div class="cbp-caption cbp-singlePage">
-                      <img src="img/team/3.jpg" alt="" width="100%">
+                      <img src="<?=$siteLink?>img/team/3.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -250,7 +250,7 @@
                 <li class="cbp-item neurologist">
                   <div>
                     <div class="cbp-caption cbp-singlePage">
-                      <img src="img/team/1.jpg" alt="" width="100%">
+                      <img src="<?=$siteLink?>img/team/1.jpg" alt="" width="100%">
                     </div>
                     <div class="cbp-caption-activeWrap">
                       <div class="cbp-l-caption-alignCenter">
@@ -308,7 +308,7 @@
                   <span class="fa fa-phone fa-2x"></span>
                 </div>
                 <div class="service-desc">
-                  <h5 class="h-light"><a href="tel:+62 09 369 1369"> +62 09 369 1369</a></h5>
+                  <h5 class="h-light"><a href="tel:+64 09 369 1369"> +64 09 369 1369</a></h5>
                 </div>
               </div>
             </div>
@@ -445,7 +445,7 @@
         <div class="row">
           <div>
             <div class="partner">
-              <a href="#"><img src="img/photo/back_care_oleg_tokaev.png" alt="" /></a>
+              <a href="#"><img src="<?=$siteLink?>img/photo/back_care_oleg_tokaev.png" alt="" /></a>
             </div>
           </div>
           <!--

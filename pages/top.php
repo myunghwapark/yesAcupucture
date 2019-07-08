@@ -52,7 +52,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <p class="bold text-left">Call us now <a href="tel:+62 09 369 1369" style="color:#ffffff;"> +62 09 369 1369</a></p>
+              <p class="bold text-left">Call us now <a href="tel:+64 09 369 1369" style="color:#ffffff;"> +64 09 369 1369</a></p>
             </div>
             <div class="col-sm-6 col-md-6 text-right">
         			<div class="btn-group" id="langDropdown">

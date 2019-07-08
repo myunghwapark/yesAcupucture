@@ -2,16 +2,28 @@
 
 
 	function getUser($email, $password) {
-		global $connection;
-		$query = "Select email, firstName, lastName, phoneNumber, userType from tbUser where email = '$email' and userPassword = SHA1(UNHEX(SHA1('$password')));";
-		
-		$result = mysqli_query($connection, $query);
 
-		if($result == false) {
-			 echo "error: " . mysqli_error($connection);
+		global $connection;
+		$result;
+		
+		try {
+			$query = "Select email, firstName, lastName, phoneNumber, userType from tbUser where email = '$email' and userPassword = SHA1(UNHEX(SHA1('$password')));";
+			
+			$result = mysqli_query($connection, $query);
+
+			if($result == false) {
+				 echo "error: " . mysqli_error($connection);
+			}
+			
 		}
-		mysqli_close($connection);
+		catch(Exception $e) {
+			echo 'Caught exception: ',  $e->getMessage(), "\n";
+		}
+		finally {
+			mysqli_close($connection);
+		}
 		return $result;
+		
 	}
 
 	function getAdmin($email, $password) {

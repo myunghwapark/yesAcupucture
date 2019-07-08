@@ -32,7 +32,7 @@
                     <span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
 						<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-					</span> +62 09 369 1369
+					</span> +64 09 369 1369
                   </li>
                   <li>
                     <span class="fa-stack fa-lg">
@@ -61,7 +61,7 @@
                 <ul class="company-social">
                   <li class="social-facebook"><a href="https://www.facebook.com/yesacupunctureclinic" target="_blank"><i class="fa fa-facebook"></i></a></li>
                   <li class="social-instagram"><a href="https://www.instagram.com/p/BcdZ30tB8-W/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                  <li style="position: relative;top: -1px;"><a href="http://blog.daum.net/jhcom76" target="_blank"><img src="img/daum_logo.png" /></a></li>
+                  <li style="position: relative;top: -1px;"><a href="http://blog.daum.net/jhcom76" target="_blank"><img src="<?=$siteLink?>img/daum_logo.png" /></a></li>
                   <!--
                   <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
                   <li class="social-dribble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
