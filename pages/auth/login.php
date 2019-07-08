@@ -22,10 +22,6 @@
                             <span toggle="#password" class="zmdi zmdi-eye-off field-icon toggle-password"></span>
                         </div>
                         <div class="form-group">
-                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>Remember me</label>
-                        </div>
-                        <div class="form-group">
                             <input type="submit" name="submit" id="submit" class="form-submit" value="Sign in"/>
                         </div>
                         <!--

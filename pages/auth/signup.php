@@ -34,17 +34,8 @@
                             <input type="number" class="form-input" name="phoneNumber" id="phoneNumber" placeholder="Your Phone Number"/>
                         </div>
                         <div class="form-group">
-                            <input type="checkbox" name="agreeTerm" id="agreeTerm" class="agree-term" />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
-                        </div>
-                        <div class="form-group">
                             <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>
                         </div>
-                        <!--
-                        <div class="form-group">
-                              <input type="text" class="form-input" name="encryptedPassword" id="encryptedPassword" placeholder="encrypted Password"/>
-                        </div>
-                    -->
                     </form>
                     <p class="loginhere">
                         Have already an account ? <a href="<?=$siteLink?>pages/auth/login.php" class="loginhere-link">Login here</a>
