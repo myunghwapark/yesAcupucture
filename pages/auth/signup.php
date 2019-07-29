@@ -72,22 +72,13 @@
 
             try {
                 // Encrypt password
-                /*
-                var crypt = new JSEncrypt();
-
-                // Set key
-                crypt.setPrivateKey($("#publicKey").val());
-                var plainPassword = $("#password").val();
-                var encryptedPassword = crypt.encrypt(plainPassword);
-                $("#encryptedPassword").val(encryptedPassword);
-                */
-
-                //return;
-
+                var salt = $("#email").val();
+                var encrypt = CryptoJS.SHA256(salt, $("#password").val());
+              
                 $.ajax({
                     url: "<?=$siteLink?>action/signupAction.php",
                     type: "post",
-                    data: {email:$("#email").val(), firstName:$("#firstName").val(), lastName:$("#lastName").val(), password:$("#password").val(),
+                    data: {email:$("#email").val(), firstName:$("#firstName").val(), lastName:$("#lastName").val(), password:encrypt.toString(),
                             phoneNumber:$("#phoneNumber").val()}
                     //data: $( "#signupForm" ).serialize()
                 }).done(function(result) {

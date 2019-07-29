@@ -5,21 +5,28 @@
  *    Purpose: Add new service
  **/
 
-  require('../database/database.php');
-  require('../database/service_query.php');
+  	require('../database/database.php');
+  	require('../database/service_query.php');
 
-	$serviceTypeEn = $_POST['serviceTypeEn'];
-	$serviceTypeKr = $_POST['serviceTypeKr'];
-	$serviceStatus = $_POST['serviceStatus'];
+	try {
+		
+	    $serviceTypeEn = $_POST['serviceTypeEn'];
+		$serviceTypeKr = $_POST['serviceTypeKr'];
+		$serviceStatus = $_POST['serviceStatus'];
 
-	$result = insertService($serviceTypeEn, $serviceTypeKr, $serviceStatus);
-	
-	
-	if ($result == 1) {
-		echo "success";
+		$result = insertService($serviceTypeEn, $serviceTypeKr, $serviceStatus);
+		
+		
+		if ($result == 1) {
+			echo "success";
+		}
+		else {
+			echo $result;
+		}
 	}
-	else {
-		echo $result;
+	catch (Exception $e) {
+	    echo $e->getMessage();
 	}
+	
 
 ?>

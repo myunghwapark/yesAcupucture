@@ -1,7 +1,7 @@
 <?php 
   session_start(); 
-  //$siteLink = "/YesAcupunctureClinic/";
-  $siteLink = "/";
+  $siteLink = "/YesAcupunctureClinic/";
+  //$siteLink = "/";
   $language = "en";
   if (isset($_COOKIE["language"])){
     $language = $_COOKIE['language'];

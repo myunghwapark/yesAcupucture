@@ -25,7 +25,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
-		mysqli_close($connection);
+		//mysqli_close($connection);
 		return $result;
 	}
 
@@ -78,7 +78,7 @@
 		if($result == false) {
 			 echo "error: " . mysqli_error($connection);
 		}
-		mysqli_close($connection);
+		//mysqli_close($connection);
 		return $result;
 	}
 

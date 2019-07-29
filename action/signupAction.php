@@ -5,22 +5,29 @@
  *    Purpose: Sign up
  **/
 
-  require('../database/database.php');
-  require('../database/user_query.php');
+  	require('../database/database.php');
+  	require('../database/user_query.php');
 
-	$email = $_POST['email'];
-	$password = $_POST['password'];
-	$firstName = $_POST['firstName'];
-	$lastName = $_POST['lastName'];
-	$phoneNumber = $_POST['phoneNumber'];
+	try {
+	    $email = $_POST['email'];
+		$password = $_POST['password'];
+		$firstName = $_POST['firstName'];
+		$lastName = $_POST['lastName'];
+		$phoneNumber = $_POST['phoneNumber'];
 
-	$result = insertUser($email, $password, $firstName, $lastName, $phoneNumber);
+		$result = insertUser($email, $password, $firstName, $lastName, $phoneNumber);
+		
+		if ($result == 1) {
+			echo "success";
+		}
+		else {
+			echo $result;
+		}
+	}
+	catch (Exception $e) {
+	    echo $e->getMessage();
+	}
+
 	
-	if ($result == 1) {
-		echo "success";
-	}
-	else {
-		echo $result;
-	}
 
 ?>

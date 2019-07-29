@@ -49,23 +49,18 @@
     	
 
         $("#submit").on("click", function(){
+  
             if(!checkForm()) {
                 return;
             }
+            
+            var salt = $("#email").val();
+            var encrypt = CryptoJS.SHA256(salt, $("#password").val());
 
-/*
-            // Encrypt password
-            var crypt = new JSEncrypt();
-
-            // Set key
-            crypt.setPrivateKey($('#publicKey').val());
-            var plainPassword = $("#password").val();
-            var encryptedPassword = crypt.encrypt(plainPassword);
-*/
             $.ajax({
                 url: "<?=$siteLink?>action/loginAction.php",
                 type: "post",
-                data: {email:$("#email").val(), password:$("#password").val(), userType:"G001_002"}
+                data: {email:$("#email").val(), password:encrypt.toString(), userType:"G001_002"}
                 //data: $( "#signupForm" ).serialize()
             }).done(function(result) {
                 if(result == "success") {

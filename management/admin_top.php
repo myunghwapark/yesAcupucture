@@ -1,7 +1,7 @@
 <?php 
   session_start(); 
-  //$siteLink = "/YesAcupunctureClinic/";
-  $siteLink = "/";
+  $siteLink = "/YesAcupunctureClinic/";
+  //$siteLink = "/";
   
  // echo "<script>alert('".$_SESSION['userType']."');</script>";
   if(!isset($_SESSION['userType']) || $_SESSION['userType'] != 'G001_001') {

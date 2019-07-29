@@ -134,7 +134,8 @@
                               $selected = "";
                               while($bookingStatus = $bookingStatusList->fetch_array())
                               {
-                                if($bookingStatus['codeNo'] == $board['bookingStatus']) {
+
+                                if($bookingStatus['codeNo'] == $board['bookingStatusCode']) {
                                   $selected = " selected=true";
                                 }
                                 else {

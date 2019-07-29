@@ -5,19 +5,26 @@
  *    Purpose: Delete booking
  **/
 
-  require('../database/database.php');
-  require('../database/booking_query.php');
+  	require('../database/database.php');
+  	require('../database/booking_query.php');
 
-	$bookingSeqNo = $_POST['bookingSeqNo'];
+	try {
+	    $bookingSeqNo = $_POST['bookingSeqNo'];
 
-	$result = deleteBooking($bookingSeqNo);
-	
-	
-	if ($result == 1) {
-		echo "success";
+		$result = deleteBooking($bookingSeqNo);
+		
+		
+		if ($result == 1) {
+			echo "success";
+		}
+		else {
+			echo $result;
+		}
 	}
-	else {
-		echo $result;
+	catch (Exception $e) {
+	    echo $e->getMessage();
 	}
+
+	
 
 ?>

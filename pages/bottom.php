@@ -164,6 +164,8 @@ uz37ucH3ytkaiKamFvyVgrPUBaps7GJbXoYFOarp2pZmAuQuX5JysXcxw+jgTTf/
   <script src="<?=$siteLink?>js/common.js"></script>
   <script src="<?=$siteLink?>js/jsencrypt.min.js"></script>
   <script src="<?=$siteLink?>js/jquery.validate.js"></script>
+  <script src="<?=$siteLink?>js/core.min.js"></script>
+  <script src="<?=$siteLink?>js/sha256.min.js"></script>
 <script>
     var currentLng = "<?=$language?>";
 
