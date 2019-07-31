@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-info">
 
   <div class="container">
 
@@ -61,7 +61,7 @@
                       </div>
                     </div>
                   -->
-                    <input type="submit" name="btnLogin" id="btnLogin" class="btn btn-primary btn-user btn-block" value="Login"/>
+                    <input type="submit" name="btnLogin" id="btnLogin" class="btn btn-info btn-user btn-block" value="Login"/>
                     
                   </form>
                   <hr>
