@@ -1,5 +1,5 @@
 <?php 
-  $siteLink = "/YesAcupunctureClinic/";
+  $siteLink = "/";
   
 ?>
 
