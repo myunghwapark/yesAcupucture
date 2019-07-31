@@ -92,6 +92,8 @@
   <!-- Custom scripts for all pages-->
   <script src="<?=$siteLink?>js/management/sb-admin-2.js"></script>
   <script src="<?=$siteLink?>js/common.js"></script>
+  <script src="<?=$siteLink?>js/core.min.js"></script>
+  <script src="<?=$siteLink?>js/sha256.min.js"></script>
 
     <script>
     $(document).ready(function(){
@@ -102,11 +104,14 @@
                 return;
             }
 
+            var salt = $("#email").val();
+            var encrypt = CryptoJS.SHA256(salt, $("#password").val());
+
             $.ajax({
                 url: "<?=$siteLink?>action/loginAction.php",
                 type: "post",
-                //data: {email:$("#email").val(), password:$("#password").val()}
-                data: $( "#adminLoginForm" ).serialize()
+                data: {email:$("#email").val(), password:encrypt.toString(), userType:$("#userType").val()}
+                //data: $( "#adminLoginForm" ).serialize()
             }).done(function(result) {
                 if(result == "success") {
                     location.href = "<?=$siteLink?>management/booking_list.php";
