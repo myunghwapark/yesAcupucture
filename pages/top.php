@@ -1,7 +1,7 @@
 <?php 
   session_start(); 
-  $siteLink = "/YesAcupunctureClinic/";
-  //$siteLink = "/";
+  //$siteLink = "/YesAcupunctureClinic/";
+  $siteLink = "/";
   $language = "en";
   if (isset($_COOKIE["language"])){
     $language = $_COOKIE['language'];
@@ -52,7 +52,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <p class="bold text-left">Call us now <a href="tel:+64 09 369 1369" style="color:#ffffff;"> +64 09 369 1369</a></p>
+              <p class="bold text-left">Call or text us <a href="tel:+64 021 686 354" style="color:#ffffff;"> 021 686 354</a></p>
             </div>
             <div class="col-sm-6 col-md-6 text-right">
         			<div class="btn-group" id="langDropdown">

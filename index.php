@@ -104,7 +104,7 @@
                 <div class="col-md-4">
                   <div class="wow lightSpeedIn" data-wow-delay="0.1s">
                     <div class="cta-btn">
-                      <a href="tel:+64 09 369 1369" class="btn btn-skin btn-lg">Call us +64 09 369 1369</a>
+                      <a href="tel:+64 21 686 354" class="btn btn-skin btn-lg">Call or text us 021 686 354</a>
                     </div>
                   </div>
                 </div>
@@ -219,6 +219,19 @@
           </div>
 
           <div class="col-sm-4 col-md-4">
+                
+            <!-- mobile number start -->
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  &nbsp;<span class="fa fa-mobile fa-2x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5 class="h-light"><a href="tel:+64 21 686 354"> 021 686 354 (Text)</a></h5>
+                </div>
+              </div>
+            </div>
+            <!-- mobile number end -->
                 
             <!-- phone number start -->
             <div class="wow fadeInRight" data-wow-delay="0.2s">

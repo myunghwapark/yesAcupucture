@@ -30,15 +30,15 @@
                   </li>
                   <li>
                     <span class="fa-stack fa-lg">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-					</span> +64 09 369 1369
+          						<i class="fa fa-circle fa-stack-2x"></i>
+          						<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+          					</span> +64 021 686 354 (Text)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+64 09 369 1369
                   </li>
                   <li>
                     <span class="fa-stack fa-lg">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-					</span> yesnz@hotmail.com
+          						<i class="fa fa-circle fa-stack-2x"></i>
+          						<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+          					</span> yesnz@hotmail.com
                   </li>
 
                 </ul>
