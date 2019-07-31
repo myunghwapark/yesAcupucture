@@ -44,7 +44,14 @@
 
                         <?php
                          
-                        $serviceList = getServiceListByLan($language);
+                        $serviceListQuery = getServiceListByLan($language);
+
+                        $serviceList = mysqli_query($connection, $serviceListQuery);
+
+                        if($serviceList == false) {
+                            echo "error: " . mysqli_error($connection);
+                        }
+
                         if ($serviceList->num_rows > 0) {
                             
                             while($board = $serviceList->fetch_array())
@@ -55,6 +62,7 @@
                         <?php 
                             }
                           } 
+                          mysqli_close($connection);
                           ?>
 
                             </select>
