@@ -53,19 +53,23 @@
                       <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password" maxlength="20" minlength="8" />
                       <input type="hidden" id="userType" name="userType" valu="G001_001" />
                     </div>
+                    <!--
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
                         <input type="checkbox" class="custom-control-input" id="customCheck">
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
                     </div>
+                  -->
                     <input type="submit" name="btnLogin" id="btnLogin" class="btn btn-primary btn-user btn-block" value="Login"/>
                     
                   </form>
                   <hr>
+                  <!--
                   <div class="text-center">
                     <a class="small" href="forgot-password.html">Forgot Password?</a>
                   </div>
+                -->
                 </div>
               </div>
             </div>
