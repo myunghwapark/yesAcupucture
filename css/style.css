@@ -19,6 +19,7 @@ body {
     background-color: #ddd;
 	font-size: 16px;
     line-height: 1.6em;
+    background: url(../img/bodybg/bg1.png) repeat left top;
 }
 
 html {

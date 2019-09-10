@@ -1,7 +1,7 @@
 <?php 
   session_start(); 
-  //$siteLink = "/YesAcupunctureClinic/";
-  $siteLink = "/";
+  $siteLink = "/YesAcupunctureClinic/";
+  //$siteLink = "/";
   $language = "en";
   if (isset($_COOKIE["language"])){
     $language = $_COOKIE['language'];
@@ -23,22 +23,18 @@
 
   <!-- css -->
   <link href="<?=$siteLink?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="<?=$siteLink?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="<?=$siteLink?>fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <link href="<?=$siteLink?>plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css">
   <link href="<?=$siteLink?>css/nivo-lightbox.css" rel="stylesheet" />
   <link href="<?=$siteLink?>css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
   <link href="<?=$siteLink?>css/owl.carousel.css" rel="stylesheet" media="screen" />
   <link href="<?=$siteLink?>css/owl.theme.css" rel="stylesheet" media="screen" />
   <link href="<?=$siteLink?>css/animate.css" rel="stylesheet" />
-  <link href="<?=$siteLink?>css/jquery-ui.css" rel="stylesheet">
-  <link href="<?=$siteLink?>css/jquery.timepicker.css" rel="stylesheet">
   <link href="<?=$siteLink?>css/style.css" rel="stylesheet">
   <link href="<?=$siteLink?>img/yes_favicon.ico" rel="shortcut icon">
 
-  <!-- boxed bg -->
-  <link id="bodybg" href="<?=$siteLink?>bodybg/bg1.css" rel="stylesheet" type="text/css" />
   <!-- template skin -->
-  <link id="t-colors" href="<?=$siteLink?>color/default.css" rel="stylesheet">
+  <link id="t-colors" href="<?=$siteLink?>css/color/default.css" rel="stylesheet">
 
 </head>
 

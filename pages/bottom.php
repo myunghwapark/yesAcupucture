@@ -102,46 +102,6 @@
       </div>
     </footer>
 
-    <input type="hidden" id="publicKey" value="-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwzh3Papee0HCG+SaxR6B
-nhepSOmZ9TKjSud1SpMCSpU9BkatetZFm3BcAqd9+zjo5SbjteWjLD0PjTVVwm2S
-B23u6+GJtDvfWezk6rn1f8bUTdl4I/7Qsk7q7ZsGGa8uUjQyh2GE4ok9rXBBYRIl
-1nz+5zcR7MVstVY0P1mrVOpaJAwHnRl8C/ASGBs4ZMsiZfHHzSXwPAVUkuRvsjgc
-kla2jeKML5meOeNZ/8YcsXAluitfBTxeMawZjyzldi98bpCoGh/FWBSo4+Q8RkIB
-iKMOfQPmn6BaxiUOcTaAH2gZjLBZFNFQo2wzSPEWP/LwF6RwpS7S6VBIEGqiU9nd
-pwIDAQAB
------END PUBLIC KEY-----" />
-    <input type="hidden" id="privateKey" value="-----BEGIN RSA PRIVATE KEY-----
-Proc-Type: 4,ENCRYPTED
-DEK-Info: AES-256-CBC,AAF6B8E47DD2E4057EA6951B4CC5BD4C
-
-NXR8lW58xw0WUSoG+u8m3QMtmmvcQK0v71BRKdpI1mh7Zq7N4lx4d+1+jU7XoTcO
-OwIoD8fXumxoypkLXTG1tdvIwCZE8IjGYAREIUlDP723HUtsm1c0mbjArf1bYaXX
-63Fk5G6LVzgxpsk8JlqhVqHHPL/bwND5ZdsQ1b0A658QYlvpGDuDQpEZ9tW9yYQm
-CWOj6kzzO/ibPxAxNHKxR7ZXMXWFOzBng9aa3Wz+fG4FccgLzVERKgf8TsG2pWN5
-4ZHh+aN9I8LSW8lCdXOo6RhNLU6CvYclIS7yuekzcchCGRR3M23LHl1LygPTiZTh
-WNqCM2XOebVyBkntLvTsKMvJA7gAiNNlBvR88cwB7SWpNqMObln+H5iectJjDO6U
-/YGoisVFVdAbHti7VfE/uCw7QLUsSeIl+aSRlv0PRDgqjLefoqL5Qq5jR81W6MZ8
-m54TrfEK5ceaiPsJ9qYWuGxKBaYSBupp3PFZEhF5FwyW9GIMZ+WmGqGhAGiFGx3m
-VizeFT1dlH9b0D7OFBAp4ZTdvoxmJ4Z6wOTXJAY/rYV16LisYNHGiONnA1ZepRkC
-uxXiRAazQZgh5+AQyzZJXhmtfugr6nLP9ipVmaXTINmNWjK3bKJkMn8M/ZBTtjoQ
-G5RGkUToD3yQDWgsnTr9hvZFY1MyiAeogZXsjClJ6wmGdi4l7KtxGLgbJFYY+T4X
-qHFDT0gJZIlq4unU0tDOWcYMfeRBiHiDeeFXJiZFhnSQXRZEe5F6RzPa5rbMc+D4
-bSssOV22PZ4J5I83w39JkzUK1ctJe3O1WggQ9UY9W/1PkrGQTp20NAA1WstF6IeK
-W8JjmRYB7ejIEYw7aB61hyBZ5cMhoKzn/ZSdcbFDl11fyycrQTqdnTZuILjn9Iq7
-2TilGr6hzFE2Qbr03jBLFoh+5Kt0Q+1go11ZiSiJwlwxkLQ0CjBFMUbaDr+dWTWV
-2yRVN5boLbW445CVDdC/972G/6D4Uc22kguAIobR5Fc/E3nXRsMtKjoVq9m+WbBL
-mAaAN4vadgAtJ2XBbFiuBN1A04kLQFotfjhaMwBAEglMFGfyxpoI069P8+Y5DZj5
-79y4Ar5qrSWatOHJXI3oIZH3z60zVODDKRQIM00/70H6JxDaKPMd/4vfEGTnrmZZ
-AntFt55I6nwDKdvhRIfr8kcC2/eU0zwLN8MvAQjM9q6z0K58jonUeRkVKSWkRfTZ
-FrEQW/Gf0YWeCSGMLpbnHusdfeHAhZZSdi/K1TXM78cJ2VVbWIicMgReOPXKiUVf
-EwOVPjIae+v/9n+RZ4/Z6avWrRc/bk/B0M9EHL+aUAsDRb0BWzMvwv40ka3ieV1Q
-X/SNl6ema4dH6P1m3hUjgagrbRcpZzMi7DzQgJum/p6l7ENskD+7OzpOLs1AKmnE
-jBjmj3tI2IY5roR36WUg2j27U7+cfx039259g4jH1lJMmgXD8d+089C8boLhHmG2
-Jc6ov9FIjaA9MyAx2nenpmR79AzyrIOiILZw7Ft8w3+Evhz+Cx6HAc/TQhSQj3A8
-uz37ucH3ytkaiKamFvyVgrPUBaps7GJbXoYFOarp2pZmAuQuX5JysXcxw+jgTTf/
------END RSA PRIVATE KEY-----" />
-
 
   </div>
   <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
@@ -159,8 +119,6 @@ uz37ucH3ytkaiKamFvyVgrPUBaps7GJbXoYFOarp2pZmAuQuX5JysXcxw+jgTTf/
   <script src="<?=$siteLink?>js/nivo-lightbox.min.js"></script>
   <script src="<?=$siteLink?>js/custom.js"></script>
   <script src="<?=$siteLink?>js/translate.js"></script>
-  <script src="<?=$siteLink?>js/jquery-ui.js"></script>
-  <script src="<?=$siteLink?>js/jquery.timepicker.js"></script>
   <script src="<?=$siteLink?>js/common.js"></script>
   <script src="<?=$siteLink?>js/jsencrypt.min.js"></script>
   <script src="<?=$siteLink?>js/jquery.validate.js"></script>
